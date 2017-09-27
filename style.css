@@ -1,0 +1,109 @@
+  body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+	background-image: url(bgi.jpg) ;
+}
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: black; /* Цвет текста */
+	
+}
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+}
+   #header { /* Верхний блок */
+    background: #98FB98; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+	opacity: 0.8;
+	
+}
+   #sidebar { 
+    float: left; 
+    border: 1px solid #333; 
+    width: 5%; 
+    padding: 5px; 
+    margin: 10px 10px 20px 5px;
+}
+   #content { 
+    margin: 0px 0px 0px 42.5%; 
+    padding: 5px; 
+	
+    
+}
+   #footer {
+	margin: 0 auto; 
+    width: 100px; 
+   
+    padding: 10px 5px;
+    color: black;
+    text-align:center;
+}
+   
+   .text {
+   text-align:  center;
+   color: black;
+}
+   
+   #buttom{
+	
+    width: 100px; 
+   	padding: 10px 5px;
+    color: #333;
+    text-align:center;
+    padding: 10px 54px;
+	border-radius: 3px;
+	background: rgb(64,199,129);
+	box-shadow: 0 -3px rgb(53,167,110) inset;
+	transition: 0.2s;
+	cursor: pointer;
+}
+   
+	#buttom:hover { 
+	background: rgb(53, 167, 110); 
+}
+	
+	#buttom:active {
+	background: rgb(33,147,90);
+	box-shadow: 0 3px rgb(33,147,90) inset;
+}
+   
+   #calendar{
+	margin: 20px;
+	float: right; 
+    width: 200px; 
+    background-color: rgba(255, 255, 240, 0.8); 
+   	padding: 10px 5px; 
+    color: #333;
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid #666;
+	
+   }
+   
+   #data{
+	margin: 20px 0px 0px 50px;
+	float: left; 
+    width: 200px; 
+    background-color: rgba(255, 255, 240, 0.8); 
+   	padding: 10px 5px; 
+    color: #333;
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid #666;
+	
+   }
+   
+   #output1{
+	margin: 20px;
+	float: left; 
+    background-color: rgba(255, 255, 240, 0.8);
+   	padding: 10px 5px;
+    color: #333;
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid #666;
+	float: right;
+	
+	
+   }
